@@ -15,6 +15,7 @@
 		3CB820141DEB6DA20043E6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB820121DEB6DA20043E6A8 /* LaunchScreen.storyboard */; };
 		3CB8201F1DEB6DA20043E6A8 /* CCA_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8201E1DEB6DA20043E6A8 /* CCA_appTests.m */; };
 		3CB8202A1DEB6DA20043E6A8 /* CCA_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB820291DEB6DA20043E6A8 /* CCA_appUITests.m */; };
+		3CB820391DEB70A70043E6A8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB820381DEB70A70043E6A8 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3CB820251DEB6DA20043E6A8 /* CCA appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCA appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB820291DEB6DA20043E6A8 /* CCA_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCA_appUITests.m; sourceTree = "<group>"; };
 		3CB8202B1DEB6DA20043E6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB820371DEB70A70043E6A8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3CB820381DEB70A70043E6A8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3CB820081DEB6DA20043E6A8 /* AppDelegate.m */,
 				3CB8200A1DEB6DA20043E6A8 /* ViewController.h */,
 				3CB8200B1DEB6DA20043E6A8 /* ViewController.m */,
+				3CB820371DEB70A70043E6A8 /* WebViewController.h */,
+				3CB820381DEB70A70043E6A8 /* WebViewController.m */,
 				3CB8200D1DEB6DA20043E6A8 /* Main.storyboard */,
 				3CB820101DEB6DA20043E6A8 /* Assets.xcassets */,
 				3CB820121DEB6DA20043E6A8 /* LaunchScreen.storyboard */,
@@ -207,18 +212,18 @@
 				TargetAttributes = {
 					3CB820001DEB6DA20043E6A8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SHL4PB3CSA;
+						DevelopmentTeam = 3QM4M6CBJS;
 						ProvisioningStyle = Automatic;
 					};
 					3CB820191DEB6DA20043E6A8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SHL4PB3CSA;
+						DevelopmentTeam = 3QM4M6CBJS;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3CB820001DEB6DA20043E6A8;
 					};
 					3CB820241DEB6DA20043E6A8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SHL4PB3CSA;
+						DevelopmentTeam = 3QM4M6CBJS;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3CB820001DEB6DA20043E6A8;
 					};
@@ -279,6 +284,7 @@
 				3CB8200C1DEB6DA20043E6A8 /* ViewController.m in Sources */,
 				3CB820091DEB6DA20043E6A8 /* AppDelegate.m in Sources */,
 				3CB820061DEB6DA20043E6A8 /* main.m in Sources */,
+				3CB820391DEB70A70043E6A8 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SHL4PB3CSA;
+				DEVELOPMENT_TEAM = 3QM4M6CBJS;
 				INFOPLIST_FILE = "CCA app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-inc..CCA-app";
+				PRODUCT_BUNDLE_IDENTIFIER = CCAWISDOM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,11 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SHL4PB3CSA;
+				DEVELOPMENT_TEAM = 3QM4M6CBJS;
 				INFOPLIST_FILE = "CCA app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-inc..CCA-app";
+				PRODUCT_BUNDLE_IDENTIFIER = CCAWISDOM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -449,7 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = SHL4PB3CSA;
+				DEVELOPMENT_TEAM = 3QM4M6CBJS;
 				INFOPLIST_FILE = "CCA appTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-inc..CCA-appTests";
@@ -462,7 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = SHL4PB3CSA;
+				DEVELOPMENT_TEAM = 3QM4M6CBJS;
 				INFOPLIST_FILE = "CCA appTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-inc..CCA-appTests";
@@ -474,7 +482,7 @@
 		3CB820351DEB6DA20043E6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = SHL4PB3CSA;
+				DEVELOPMENT_TEAM = 3QM4M6CBJS;
 				INFOPLIST_FILE = "CCA appUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-inc..CCA-appUITests";
@@ -486,7 +494,7 @@
 		3CB820361DEB6DA20043E6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = SHL4PB3CSA;
+				DEVELOPMENT_TEAM = 3QM4M6CBJS;
 				INFOPLIST_FILE = "CCA appUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-inc..CCA-appUITests";
@@ -514,6 +522,7 @@
 				3CB820301DEB6DA20043E6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB820311DEB6DA20043E6A8 /* Build configuration list for PBXNativeTarget "CCA appTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				3CB820331DEB6DA20043E6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB820341DEB6DA20043E6A8 /* Build configuration list for PBXNativeTarget "CCA appUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				3CB820361DEB6DA20043E6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
